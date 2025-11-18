@@ -1,4 +1,4 @@
-📘 Project Overview：An Event-Driven Multi-Layer Agent Framework for Intraday Trading with LLMs
+**Project Overview：An Event-Driven Multi-Layer Agent Framework for Intraday Trading with LLMs**
 
 本專案旨在建立一套 事件驅動（Event-Driven） 的盤中市場決策架構，
 透過三層式代理人流程 —— L0 市場事件偵測、L1 事件語義化、L2 LLM 決策代理人 ——
@@ -16,7 +16,8 @@
 
 研究紀錄與補充說明
 
-🎯 Objectives（研究目標）
+
+**Objectives（研究目標）**
 
 建立 事件驅動式盤中市場分析流程
 
@@ -38,8 +39,9 @@
 
 提供一套 可重現、可驗證的研究架構
 
-🏗️ System Architecture（系統架構）
-L0 — Event Detection Layer（XGBoost）
+
+**System Architecture（系統架構）
+L0 — Event Detection Layer（XGBoost）**
 
 使用盤中資料建立 監督式事件偵測模型
 
@@ -82,7 +84,7 @@ LLM 基於事件語義與上下文輸出：
 決策模式
 而非最終報酬率本身。
 
-📁 Repository Structure
+**📁 Repository Structure**
 docs/
    literature/    文獻導讀
    design/        架構與方法設計
@@ -95,7 +97,7 @@ data/
    examples/      資料格式示例（無實際金融資料）
 README.md
 
-📚 Literature Overview
+** Literature Overview**
 
 所有文獻導讀位於 docs/literature/。
 每篇包含：
@@ -118,23 +120,9 @@ README.md
 
 （不含主觀推論，僅整理原文內容）
 
-目前已完成：
 
-Park (2024) – LLM-based Multi-Agent Reasoning Framework（核心文獻）
+** Roadmap**
 
-🚀 Current Progress（目前進度）
-
-Repository 初始化完成
-
-第一篇文獻導讀（Park 2024）已加入
-
-L0/L1/L2 整體架構已確立
-
-README 已調整為事件驅動版本
-
-開始規劃 L0 資料處理與標註策略
-
-🗺️ Roadmap
 L0 — Event Detection
 
 盤中資料前處理
@@ -161,7 +149,8 @@ L2 — LLM Decision Agent
 
 行為一致性分析
 
-📊 Evaluation（實驗）
+
+**Evaluation（實驗）**
 
 事件偵測分布
 
