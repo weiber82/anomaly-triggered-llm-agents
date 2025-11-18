@@ -1,4 +1,4 @@
-Project Overview
+# Project Overview
 
 本專案研究以 事件驅動（Event-Driven） 為核心的盤中市場決策架構，
 透過三層式流程：
@@ -25,7 +25,7 @@ L2：LLM 決策代理人
 
 
 
-Objectives
+# Objectives
 
 建立事件驅動式盤中市場分析流程
 
@@ -41,7 +41,7 @@ Objectives
 
 
 
-System Architecture
+# System Architecture
 L0 — Event Detection (XGBoost)
 
 使用盤中資料建立監督式事件偵測模型
@@ -82,7 +82,7 @@ L2 — LLM Decision Agent
 
 
 
-📁 Repository Structure
+# 📁 Repository Structure
 docs/
    literature/      文獻導讀
    design/          架構與方法設計
@@ -97,7 +97,7 @@ README.md
 
 
 
-Literature Overview
+# Literature Overview
 
 所有文獻導讀位於 docs/literature/。
 每篇包含：
@@ -122,19 +122,7 @@ Literature Overview
 
 
 
-Current Progress
-
-Repository 初始化完成
-
-新增第一篇文獻導讀（Park 2024）
-
-L0 / L1 / L2 研究方向已確立
-
-README 已更新為事件驅動版本
-
-
-
-Roadmap
+# Roadmap
 L0 — Event Detection
 
 盤中資料前處理
@@ -161,7 +149,7 @@ L2 — LLM Decision Agent
 
 
 
-Evaluation
+# Evaluation
 
 事件分布
 
