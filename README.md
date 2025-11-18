@@ -82,7 +82,7 @@ L2 — LLM Decision Agent
 
 
 
-# 📁 Repository Structure
+#  Repository Structure
 docs/
    literature/      文獻導讀
    design/          架構與方法設計
