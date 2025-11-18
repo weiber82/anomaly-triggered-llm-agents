@@ -84,6 +84,7 @@ LLM 基於事件語義與上下文輸出：
 決策模式
 而非最終報酬率本身。
 
+
 **📁 Repository Structure**
 docs/
    literature/    文獻導讀
@@ -96,6 +97,7 @@ src/
 data/
    examples/      資料格式示例（無實際金融資料）
 README.md
+
 
 ** Literature Overview**
 
@@ -119,6 +121,7 @@ README.md
 與本研究之關聯
 
 （不含主觀推論，僅整理原文內容）
+
 
 
 ** Roadmap**
@@ -148,6 +151,7 @@ L2 — LLM Decision Agent
 決策格式化
 
 行為一致性分析
+
 
 
 **Evaluation（實驗）**
